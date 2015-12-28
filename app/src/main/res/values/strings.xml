@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WorkSchedule</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="schedule_day">Day</string>
+    <string name="schedule_time">Time</string>
+    <string name="schedule_location">Location</string>
+
+    <string name="schedule_employee_title">Employee</string>
+    <string name="employee_prompt">Choose an Employee</string>
+    <string name="employee_date">Date</string>
+    <string name="submit_button">Submit</string>
+
+    <string name="addScheduleActivity">Add Schedule</string>
+
+</resources>

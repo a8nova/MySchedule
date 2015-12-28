@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/schedule_location"/>
+
+    <EditText
+        android:id="@+id/schedule_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_day"
+        android:layout_weight="0.15"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/schedule_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_time"
+        android:layout_weight="0.15"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
