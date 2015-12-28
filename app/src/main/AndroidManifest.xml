@@ -11,6 +11,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="AJcQZVRKUfZqdf4LBlM6mImWnlQ3XPvn5GfJzywW" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="hP39TIJy04Srw0i3hRg0YKOWEJzWDpykBvAY53eA" />
+
         <activity
             android:name=".ScheduleActivity"
             android:label="@string/app_name"
