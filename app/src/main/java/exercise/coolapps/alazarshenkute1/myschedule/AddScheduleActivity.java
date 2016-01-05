@@ -9,6 +9,5 @@ public class AddScheduleActivity extends SingleFragmentActivity {
         return new AddScheduleFragment();
     }
 
-
 }
 

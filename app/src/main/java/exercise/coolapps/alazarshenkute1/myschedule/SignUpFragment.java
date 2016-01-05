@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -59,7 +60,7 @@ public class SignUpFragment extends Fragment  {
                             mSupervisor.isChecked());
                 }else
                 {
-
+                    Toast.makeText(getActivity(), "Invalid data", Toast.LENGTH_LONG).show();
                 }
             }
         });
