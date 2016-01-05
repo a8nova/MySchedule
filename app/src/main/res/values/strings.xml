@@ -22,4 +22,9 @@
     <string name="signup_button">submit</string>
     <string name="supervisor">Supervisor/Manager</string>
 
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="logInSubmitButton">Submit</string>
+    <string name="signupLink">click here to sign up</string>
+
 </resources>
